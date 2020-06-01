@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="it.unifi.micc.artguide"
+4    android:versionCode="1"
+5    android:versionName="8.5.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:6:5-65
+11-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:7:5-81
+12-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- Tell the system this app requires OpenGL ES 2.0. -->
+13-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-feature
+14-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:9:5-11:35
+15        android:glEsVersion="0x00020000"
+15-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:10:9-41
+16        android:required="true" /> <!-- rear facing cam -->
+16-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:11:9-32
+17    <uses-feature
+17-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:12:5-14:35
+18        android:name="android.hardware.camera"
+18-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:13:9-47
+19        android:required="true" />
+19-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:14:9-32
+20
+21    <application
+21-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:16:5-117:19
+22        android:allowBackup="true"
+22-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:17:9-35
+23        android:debuggable="true"
+24        android:fullBackupContent="true"
+24-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:23:9-41
+25        android:icon="@mipmap/a"
+25-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:18:9-33
+26        android:label="@string/app_name"
+26-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:19:9-41
+27        android:resizeableActivity="false"
+27-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:20:9-43
+28        android:theme="@style/AppTheme" >
+28-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:21:9-40
+29        <activity
+29-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:24:9-26:77
+30            android:name="it.unifi.micc.artguide.ListActivity"
+30-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:25:13-63
+31            android:configChanges="orientation|keyboardHidden|screenSize" />
+31-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:26:13-74
+32        <activity
+32-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:27:9-28:76
+33            android:name="it.unifi.micc.artguide.ResultActivity"
+33-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:27:19-71
+34            android:configChanges="orientation|keyboardHidden|screenSize" />
+34-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:28:13-74
+35        <activity
+35-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:29:9-36:20
+36            android:name="it.unifi.micc.artguide.MainActivity"
+36-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:29:19-69
+37            android:configChanges="orientation|keyboardHidden|screenSize" >
+37-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:30:13-74
+38            <intent-filter>
+38-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:31:13-35:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:32:17-69
+39-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:32:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:34:17-77
+41-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:34:27-74
+42            </intent-filter>
+43        </activity> <!-- Image Tracking -->
+44        <activity
+44-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:37:9-40:54
+45            android:name="it.unifi.micc.artguide.tracking.image.SimpleImageTrackingActivity"
+45-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:38:13-93
+46            android:configChanges="orientation|keyboardHidden|screenSize"
+46-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:39:13-74
+47            android:screenOrientation="fullSensor" />
+47-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:40:13-51
+48        <activity
+48-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:41:9-44:54
+49            android:name="it.unifi.micc.artguide.tracking.image.ExtendedImageTrackingActivity"
+49-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:42:13-95
+50            android:configChanges="orientation|keyboardHidden|screenSize"
+50-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:43:13-74
+51            android:screenOrientation="fullSensor" />
+51-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:44:13-51
+52        <activity
+52-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:45:9-48:54
+53            android:name="it.unifi.micc.artguide.tracking.image.MultipleTargetsImageTrackingActivity"
+53-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:46:13-102
+54            android:configChanges="orientation|keyboardHidden|screenSize"
+54-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:47:13-74
+55            android:screenOrientation="fullSensor" /> <!-- Cloud Recognition -->
+55-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:48:13-51
+56        <activity
+56-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:49:9-52:54
+57            android:name="it.unifi.micc.artguide.tracking.cloud.ContinuousCloudRecognitionActivity"
+57-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:50:13-100
+58            android:configChanges="orientation|keyboardHidden|screenSize"
+58-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:51:13-74
+59            android:screenOrientation="fullSensor" />
+59-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:52:13-51
+60        <activity
+60-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:53:9-56:54
+61            android:name="it.unifi.micc.artguide.tracking.cloud.SingleCloudRecognitionActivity"
+61-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:54:13-96
+62            android:configChanges="orientation|keyboardHidden|screenSize"
+62-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:55:13-74
+63            android:screenOrientation="fullSensor" /> <!-- Instant Tracking -->
+63-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:56:13-51
+64        <activity
+64-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:57:9-60:54
+65            android:name="it.unifi.micc.artguide.tracking.instant.InstantTrackingActivity"
+65-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:58:13-91
+66            android:configChanges="orientation|keyboardHidden|screenSize"
+66-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:59:13-74
+67            android:screenOrientation="fullSensor" />
+67-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:60:13-51
+68        <activity
+68-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:61:9-64:54
+69            android:name="it.unifi.micc.artguide.tracking.instant.InstantScenePickingActivity"
+69-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:62:13-95
+70            android:configChanges="orientation|keyboardHidden|screenSize"
+70-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:63:13-74
+71            android:screenOrientation="fullSensor" />
+71-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:64:13-51
+72        <activity
+72-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:65:9-68:54
+73            android:name="it.unifi.micc.artguide.tracking.instant.SaveInstantTargetActivity"
+73-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:66:13-93
+74            android:configChanges="orientation|keyboardHidden|screenSize"
+74-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:67:13-74
+75            android:screenOrientation="fullSensor" />
+75-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:68:13-51
+76        <activity
+76-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:69:9-72:54
+77            android:name="it.unifi.micc.artguide.tracking.instant.LoadInstantTargetActivity"
+77-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:70:13-93
+78            android:configChanges="orientation|keyboardHidden|screenSize"
+78-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:71:13-74
+79            android:screenOrientation="fullSensor" />
+79-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:72:13-51
+80        <activity
+80-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:73:9-76:54
+81            android:name="it.unifi.micc.artguide.tracking.instant.PlaneDetectionActivity"
+81-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:74:13-90
+82            android:configChanges="orientation|keyboardHidden|screenSize"
+82-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:75:13-74
+83            android:screenOrientation="fullSensor" /> <!-- Object Tracking -->
+83-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:76:13-51
+84        <activity
+84-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:77:9-80:54
+85            android:name="it.unifi.micc.artguide.tracking.object.ObjectTrackingActivity"
+85-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:78:13-89
+86            android:configChanges="orientation|keyboardHidden|screenSize"
+86-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:79:13-74
+87            android:screenOrientation="fullSensor" />
+87-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:80:13-51
+88        <activity
+88-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:81:9-84:54
+89            android:name="it.unifi.micc.artguide.tracking.object.ExtendedObjectTrackingActivity"
+89-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:82:13-97
+90            android:configChanges="orientation|keyboardHidden|screenSize"
+90-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:83:13-74
+91            android:screenOrientation="fullSensor" /> <!-- Rendering -->
+91-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:84:13-51
+92        <activity
+92-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:85:9-88:54
+93            android:name="it.unifi.micc.artguide.rendering.external.ExternalRenderingActivity"
+93-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:86:13-95
+94            android:configChanges="orientation|keyboardHidden|screenSize"
+94-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:87:13-74
+95            android:screenOrientation="fullSensor" />
+95-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:88:13-51
+96        <activity
+96-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:89:9-92:54
+97            android:name="it.unifi.micc.artguide.rendering.internal.InternalRenderingActivity"
+97-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:90:13-95
+98            android:configChanges="orientation|keyboardHidden|screenSize"
+98-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:91:13-74
+99            android:screenOrientation="fullSensor" /> <!-- Plugins -->
+99-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:92:13-51
+100        <activity
+100-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:93:9-96:54
+101            android:name="it.unifi.micc.artguide.plugins.BarcodePluginActivity"
+101-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:94:13-80
+102            android:configChanges="orientation|keyboardHidden|screenSize"
+102-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:95:13-74
+103            android:screenOrientation="fullSensor" />
+103-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:96:13-51
+104        <activity
+104-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:97:9-100:54
+105            android:name="it.unifi.micc.artguide.plugins.FaceDetectionPluginActivity"
+105-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:98:13-86
+106            android:configChanges="orientation|keyboardHidden|screenSize"
+106-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:99:13-74
+107            android:screenOrientation="fullSensor" />
+107-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:100:13-51
+108        <activity
+108-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:101:9-104:54
+109            android:name="it.unifi.micc.artguide.plugins.SimpleInputPluginActivity"
+109-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:102:13-84
+110            android:configChanges="orientation|keyboardHidden|screenSize"
+110-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:103:13-74
+111            android:screenOrientation="fullSensor" />
+111-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:104:13-51
+112        <activity
+112-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:105:9-108:54
+113            android:name="it.unifi.micc.artguide.plugins.CustomCameraPluginActivity"
+113-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:106:13-85
+114            android:configChanges="orientation|keyboardHidden|screenSize"
+114-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:107:13-74
+115            android:screenOrientation="fullSensor" /> <!-- Camera Control -->
+115-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:108:13-51
+116        <activity
+116-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:109:9-112:54
+117            android:name="it.unifi.micc.artguide.camera.CameraSettingsActivity"
+117-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:110:13-80
+118            android:configChanges="orientation|keyboardHidden|screenSize"
+118-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:111:13-74
+119            android:screenOrientation="fullSensor" />
+119-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:112:13-51
+120
+121        <meta-data
+121-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:114:9-116:40
+122            android:name="com.google.ar.core"
+122-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:115:13-46
+123            android:value="optional" />
+123-->/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:116:13-37
+124
+125        <provider
+125-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+126            android:name="com.squareup.picasso.PicassoProvider"
+126-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:9:13-64
+127            android:authorities="it.unifi.micc.artguide.com.squareup.picasso"
+127-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:10:13-72
+128            android:exported="false" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+128-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:11:13-37
+129        <activity
+129-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:31:9-37:80
+130            android:name="com.google.ar.core.InstallActivity"
+130-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:32:13-62
+131            android:configChanges="keyboardHidden|orientation|screenSize"
+131-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:33:13-74
+132            android:excludeFromRecents="true"
+132-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:34:13-46
+133            android:exported="false"
+133-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:35:13-37
+134            android:launchMode="singleTop"
+134-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:36:13-43
+135            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+135-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:37:13-77
+136        <meta-data
+136-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:39:9-41:41
+137            android:name="com.google.ar.core.min_apk_version"
+137-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:40:13-62
+138            android:value="180226000" />
+138-->[com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:41:13-38
+139    </application>
+140
+141</manifest>

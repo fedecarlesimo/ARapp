@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="wikiart-unifi/app" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" group="wikiart-unifi/plugins" />
+      <module fileurl="file://$PROJECT_DIR$/wikiart-unifi.iml" filepath="$PROJECT_DIR$/wikiart-unifi.iml" group="wikiart-unifi" />
+      <module fileurl="file://$PROJECT_DIR$/wikitude-native-sdk/wikitude-native-sdk.iml" filepath="$PROJECT_DIR$/wikitude-native-sdk/wikitude-native-sdk.iml" group="wikiart-unifi/wikitude-native-sdk" />
+    </modules>
+  </component>
+</project>

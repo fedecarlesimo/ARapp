@@ -1,0 +1,4 @@
+#Sun May 31 20:52:07 PKT 2020
+base.0=/Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

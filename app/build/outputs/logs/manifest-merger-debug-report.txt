@@ -1,0 +1,378 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+MERGED from [:plugins] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/plugins/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:wikitude-native-sdk] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/wikitude-native-sdk/build/.transforms/83b10fe8aec67eec3011bc92dd9f40e3/wikitude-native-sdk/AndroidManifest.xml:2:1-16:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6f345d142c827bea18a0d6802e24d117/volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/99e8e6fa91d67182482ae88e626de8bc/design-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android:flexbox:0.2.5] /Users/mac/.gradle/caches/transforms-2/files-2.1/750eb9353e3b80136287117146cbbcf1/flexbox-0.2.5/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3d1a908579d96cd1d1594ba5743fe43e/appcompat-v7-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5aa584a1fcbdd7b855dc6e8184b41246/support-v4-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa9e7965a63dfccf6c5dffb8fd5a5f89/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c1b48305071f64e88a819d65a04e1697/support-fragment-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a0e36292892f9e96f25c30b9eaf55f65/animated-vector-drawable-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8918d63888b99502db84349b796ddaa6/recyclerview-v7-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0664eedfbcba1d0483cedf26459d11ee/support-core-ui-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/db5ae4884c6dcfef0da435806a2dd48a/support-core-utils-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/50142c5f6ff82d7e7bce1a2ff75a0d3f/support-vector-drawable-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0b97373b06917609e04119a2f47ade7e/transition-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a099aa1fa32596a58c5b73cbab3604e4/support-media-compat-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/091070a41b346f526f507e23b95f24fa/support-compat-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/df57c66ccef6c23045b0eb90c1dc7f86/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a01d6d5b2a5abbbcbecf279c53fc9895/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/61ac7c43cc70f2024b434dea4cac8c71/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aa20964aa788cd55cc30e26e8d003b21/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:1-119:12
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:8:22-64
+uses-feature#0x00020000
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.camera
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:12:5-14:35
+	android:required
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:14:9-32
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:13:9-47
+application
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:16:5-117:19
+MERGED from [:wikitude-native-sdk] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/wikitude-native-sdk/build/.transforms/83b10fe8aec67eec3011bc92dd9f40e3/wikitude-native-sdk/AndroidManifest.xml:11:5-14:19
+MERGED from [:wikitude-native-sdk] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/wikitude-native-sdk/build/.transforms/83b10fe8aec67eec3011bc92dd9f40e3/wikitude-native-sdk/AndroidManifest.xml:11:5-14:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.volley:volley:1.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6f345d142c827bea18a0d6802e24d117/volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6f345d142c827bea18a0d6802e24d117/volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:28:5-42:19
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:28:5-42:19
+	android:label
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:19:9-41
+	android:fullBackupContent
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:23:9-41
+	android:resizeableActivity
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:20:9-43
+	tools:ignore
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:22:9-64
+	android:icon
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:18:9-33
+	android:allowBackup
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:21:9-40
+activity#it.unifi.micc.artguide.ListActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:24:9-26:77
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:26:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:25:13-63
+activity#it.unifi.micc.artguide.ResultActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:27:9-28:76
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:27:19-71
+activity#it.unifi.micc.artguide.MainActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:29:9-36:20
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:30:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:29:19-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:34:27-74
+activity#it.unifi.micc.artguide.tracking.image.SimpleImageTrackingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:37:9-40:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:40:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:38:13-93
+activity#it.unifi.micc.artguide.tracking.image.ExtendedImageTrackingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:41:9-44:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:44:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:43:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:42:13-95
+activity#it.unifi.micc.artguide.tracking.image.MultipleTargetsImageTrackingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:45:9-48:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:48:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:47:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:46:13-102
+activity#it.unifi.micc.artguide.tracking.cloud.ContinuousCloudRecognitionActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:49:9-52:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:52:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:51:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:50:13-100
+activity#it.unifi.micc.artguide.tracking.cloud.SingleCloudRecognitionActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:53:9-56:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:56:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:55:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:54:13-96
+activity#it.unifi.micc.artguide.tracking.instant.InstantTrackingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:57:9-60:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:60:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:59:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:58:13-91
+activity#it.unifi.micc.artguide.tracking.instant.InstantScenePickingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:61:9-64:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:64:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:63:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:62:13-95
+activity#it.unifi.micc.artguide.tracking.instant.SaveInstantTargetActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:65:9-68:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:68:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:67:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:66:13-93
+activity#it.unifi.micc.artguide.tracking.instant.LoadInstantTargetActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:69:9-72:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:72:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:71:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:70:13-93
+activity#it.unifi.micc.artguide.tracking.instant.PlaneDetectionActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:73:9-76:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:76:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:75:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:74:13-90
+activity#it.unifi.micc.artguide.tracking.object.ObjectTrackingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:77:9-80:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:80:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:79:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:78:13-89
+activity#it.unifi.micc.artguide.tracking.object.ExtendedObjectTrackingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:81:9-84:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:84:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:83:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:82:13-97
+activity#it.unifi.micc.artguide.rendering.external.ExternalRenderingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:85:9-88:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:88:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:87:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:86:13-95
+activity#it.unifi.micc.artguide.rendering.internal.InternalRenderingActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:89:9-92:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:92:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:91:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:90:13-95
+activity#it.unifi.micc.artguide.plugins.BarcodePluginActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:93:9-96:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:96:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:95:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:94:13-80
+activity#it.unifi.micc.artguide.plugins.FaceDetectionPluginActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:97:9-100:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:100:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:99:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:98:13-86
+activity#it.unifi.micc.artguide.plugins.SimpleInputPluginActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:101:9-104:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:104:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:103:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:102:13-84
+activity#it.unifi.micc.artguide.plugins.CustomCameraPluginActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:105:9-108:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:108:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:107:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:106:13-85
+activity#it.unifi.micc.artguide.camera.CameraSettingsActivity
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:109:9-112:54
+	android:screenOrientation
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:112:13-51
+	android:configChanges
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:111:13-74
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:110:13-80
+meta-data#com.google.ar.core
+ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:114:9-116:40
+	android:value
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:116:13-37
+	android:name
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml:115:13-46
+uses-sdk
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+MERGED from [:plugins] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/plugins/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:plugins] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/plugins/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:wikitude-native-sdk] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/wikitude-native-sdk/build/.transforms/83b10fe8aec67eec3011bc92dd9f40e3/wikitude-native-sdk/AndroidManifest.xml:7:5-9:41
+MERGED from [:wikitude-native-sdk] /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/wikitude-native-sdk/build/.transforms/83b10fe8aec67eec3011bc92dd9f40e3/wikitude-native-sdk/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6f345d142c827bea18a0d6802e24d117/volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6f345d142c827bea18a0d6802e24d117/volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/99e8e6fa91d67182482ae88e626de8bc/design-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/99e8e6fa91d67182482ae88e626de8bc/design-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android:flexbox:0.2.5] /Users/mac/.gradle/caches/transforms-2/files-2.1/750eb9353e3b80136287117146cbbcf1/flexbox-0.2.5/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.2.5] /Users/mac/.gradle/caches/transforms-2/files-2.1/750eb9353e3b80136287117146cbbcf1/flexbox-0.2.5/AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3d1a908579d96cd1d1594ba5743fe43e/appcompat-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3d1a908579d96cd1d1594ba5743fe43e/appcompat-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5aa584a1fcbdd7b855dc6e8184b41246/support-v4-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5aa584a1fcbdd7b855dc6e8184b41246/support-v4-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:25:5-44
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:25:5-44
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:26:5-47
+MERGED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:26:5-47
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa9e7965a63dfccf6c5dffb8fd5a5f89/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa9e7965a63dfccf6c5dffb8fd5a5f89/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c1b48305071f64e88a819d65a04e1697/support-fragment-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c1b48305071f64e88a819d65a04e1697/support-fragment-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a0e36292892f9e96f25c30b9eaf55f65/animated-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a0e36292892f9e96f25c30b9eaf55f65/animated-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8918d63888b99502db84349b796ddaa6/recyclerview-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/8918d63888b99502db84349b796ddaa6/recyclerview-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0664eedfbcba1d0483cedf26459d11ee/support-core-ui-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0664eedfbcba1d0483cedf26459d11ee/support-core-ui-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/db5ae4884c6dcfef0da435806a2dd48a/support-core-utils-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/db5ae4884c6dcfef0da435806a2dd48a/support-core-utils-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/50142c5f6ff82d7e7bce1a2ff75a0d3f/support-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/50142c5f6ff82d7e7bce1a2ff75a0d3f/support-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0b97373b06917609e04119a2f47ade7e/transition-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0b97373b06917609e04119a2f47ade7e/transition-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a099aa1fa32596a58c5b73cbab3604e4/support-media-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a099aa1fa32596a58c5b73cbab3604e4/support-media-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/091070a41b346f526f507e23b95f24fa/support-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/091070a41b346f526f507e23b95f24fa/support-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/df57c66ccef6c23045b0eb90c1dc7f86/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/df57c66ccef6c23045b0eb90c1dc7f86/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a01d6d5b2a5abbbcbecf279c53fc9895/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a01d6d5b2a5abbbcbecf279c53fc9895/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/61ac7c43cc70f2024b434dea4cac8c71/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/61ac7c43cc70f2024b434dea4cac8c71/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aa20964aa788cd55cc30e26e8d003b21/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aa20964aa788cd55cc30e26e8d003b21/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		MERGED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Documents/Client Data/Fed Italy AR/wikiart-unifi/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/8dff8264fbf2f7a6e0c3e8da63688623/picasso-2.71828/AndroidManifest.xml:9:13-64
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:31:9-37:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:34:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:36:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:37:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:32:13-62
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:39:9-41:41
+	android:value
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:41:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/84872b7f1359336512d8811e389551f4/core-1.1.0/AndroidManifest.xml:40:13-62

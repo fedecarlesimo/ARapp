@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wikitude_white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/wikitude_white"
+        android:backgroundTint="@color/wikitude_white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@mipmap/a" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="BENVENUTO IN WIKIART!"
+            android:textColor="@color/blue_ppm"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="INIZIA SCANNERIZZANDO UN QUADRO OPPURE UNA STATUA, MA PUOI ANCHE FARE UNA RICERCA"
+            android:textColor="@color/blue_ppm"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/blue_ppm"
+            android:padding="15dp"
+            android:text="SCANNERIZZA QUADRO"
+            android:textColor="@color/wikitude_white"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/blue_ppm"
+            android:padding="15dp"
+            android:text="SCANNERIZZA STATUA"
+            android:textColor="@color/wikitude_white"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/blue_ppm"
+            android:padding="15dp"
+            android:text="RICERCA MANUALE"
+            android:textColor="@color/wikitude_white"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/blue_ppm"
+            android:padding="15dp"
+            android:text="AUMENTO"
+            android:textColor="@color/wikitude_white"
+            android:textSize="25dp" />
+
+
+
+        <TextView
+            android:id="@+id/error_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="5dp"
+            android:textAllCaps="true"
+            android:textColor="@color/red_red"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
